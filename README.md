@@ -15,7 +15,7 @@ O seu programa deverá cálcular corretamente os valores dos métodos da classe 
 3. Caso seja feita uma reserva igual ou maior que 10 dias, deverá ser concedido um desconto de 10% no valor da diária.
 
 
-![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
+![Diagrama de classe estacionamento](diagrama_classe_hotel_oficial.png)
 
 ## Solução
 No sistema de gestão de hospedagem desenvolvido em C#, são utilizadas três classes principais: Pessoa, Suite e Reserva, juntamente com o método Main como ponto de entrada do programa.
