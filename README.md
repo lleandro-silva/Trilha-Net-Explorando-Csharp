@@ -18,4 +18,14 @@ O seu programa deverá cálcular corretamente os valores dos métodos da classe 
 ![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+No sistema de gestão de hospedagem desenvolvido em C#, são utilizadas três classes principais: Pessoa, Suite e Reserva, juntamente com o método Main como ponto de entrada do programa.
+
+1. Classe Pessoa: Responsável por representar um hóspede no hotel. Ela armazena informações como nome e sobrenome da pessoa, além de disponibilizar uma propriedade somente leitura para o nome completo.
+
+2. Classe Suite: Define uma suíte no hotel, contendo propriedades para o tipo de suíte, capacidade máxima de hóspedes e valor da diária. Validadores no construtor garantem que os valores passados são válidos, e as propriedades são somente leitura após a inicialização para manter a integridade dos dados.
+
+3. Classe Reserva: Representa uma reserva de hospedagem, contendo informações sobre os hóspedes, a suíte reservada e o número de dias da estadia. Métodos são fornecidos para cadastrar hóspedes e suítes, calcular o número de hóspedes na reserva e determinar o valor da diária, aplicando um desconto de 10% para reservas com mais de 10 dias.
+
+4. Método Main: Serve como o ponto de entrada do programa, demonstrando como criar instâncias das classes Pessoa, Suite e Reserva, cadastrar hóspedes e suítes, e calcular os valores das diárias e das reservas.
+
+Essas classes e métodos constituem um sistema simples, mas eficaz, para gerenciar reservas de hospedagem em um hotel, oferecendo funcionalidades essenciais para garantir uma experiência satisfatória aos clientes.
